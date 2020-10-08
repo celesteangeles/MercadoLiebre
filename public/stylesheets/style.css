@@ -1,0 +1,122 @@
+.flex-container{
+  display: flex;
+}
+ body{
+  font-family:'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin:0px;
+  padding: 0px;
+ }
+
+ .logo{
+   background-color: yellow;
+   box-sizing: content-box;
+ }
+.amarillo{
+  background-color: yellow;
+}
+
+.grisclarito{
+  background-color:#ebebeb;
+  color:#666;
+  font-size:24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.lienzo{
+    background-color: #ebebeb;
+    width: auto;
+    height: 40px;
+}
+.azul{
+color: #1259c3;
+}
+
+.subh2{
+  color:#666;
+  font-size: 16px;
+  border-top-left-radius: 15px;
+  padding-inline-start: 20px;
+}
+
+.ofertas{
+  color:#666;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.verdecito{
+  color:#39b54a;
+  font-size: 16px;
+}
+
+.content-box{
+
+  width: 50%;
+
+}
+
+.barradenavegacion{
+  display: none;
+  cursor: pointer;
+}
+
+.botonmenu{
+  width: 40px;
+  height: 40px;
+  background-color: #0044AA;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.botonmenu:hover {
+  background-color: #0022AA;
+  cursor: pointer;
+  }
+
+  .enviar{
+    cursor: pointer;
+    background-color: #0044AA;
+    border-radius: 5px;
+  }
+
+  .botonenviar{
+    color:white;
+  }
+
+
+footer{
+  border-left-width: 5px;
+  border-bottom: 20px;
+  border-top: 20px;
+}  
+
+.piedepagina{
+  top: 20px;
+  bottom: 20px;
+}
+
+.content-boxlogin{
+width: 100px;
+padding: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 5px;
+border:0px;
+}
+
+.botonborrar{
+  color:white;
+  background-color: #AA0044;
+  cursor: #CC1155;
+}
