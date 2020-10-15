@@ -1,23 +1,58 @@
-.flex-container{
-  display: flex;
-}
- body{
-  font-family:'Roboto', sans-serif;
-  display: flex;
-  flex-direction: column;
-  margin:0px;
-  padding: 0px;
- }
 
- .logo{
-   background-color: yellow;
-   box-sizing: content-box;
- }
-.amarillo{
+section , article, nav, footer, body{
+ margin:auto;
+  }
+
+header{
   background-color: yellow;
 }
 
-.grisclarito{
+body{
+  font-family:'Roboto', sans-serif;
+  margin:0px;
+  padding: 0px;
+  background-color: #ebebeb;
+}
+
+.logo{
+width: 50%;
+float: left;
+}
+
+.barradecuotas{
+ width: 100%;
+ display: flex;
+justify-content: center;
+ }
+
+.buscador{
+  width: 50%;
+  display: flex;
+}
+.box{
+  display: flex;
+}
+.container-3{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+ 
+.container-3 input#search{
+  width: 300px;
+  height: 50px;
+  background: #ebebeb;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #262626;
+  padding-left: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.Titular1{
   background-color:#ebebeb;
   color:#666;
   font-size:24px;
@@ -26,23 +61,18 @@
   text-align: center;
 }
 
-.lienzo{
-    background-color: #ebebeb;
-    width: auto;
-    height: 40px;
-}
 .azul{
 color: #1259c3;
 }
 
-.subh2{
+.Descripciones{
   color:#666;
   font-size: 16px;
   border-top-left-radius: 15px;
   padding-inline-start: 20px;
 }
 
-.ofertas{
+.Titular2{
   color:#666;
   font-size: 24px;
   margin-top: 20px;
@@ -50,14 +80,21 @@ color: #1259c3;
   text-align: center;
 }
 
-.verdecito{
-  color:#39b54a;
-  font-size: 16px;
+.precios{
+  font-size:18px;
+  width: 30%;
 }
 
-.content-box{
+.Descuentos{
+  color:#39b54a;
+  font-size: 16px;
+  width: 70%;
+}
 
-  width: 50%;
+.icono{
+  color:#39b54a;
+  font-size: 16px;
+  display: block;
 
 }
 
@@ -68,55 +105,157 @@ color: #1259c3;
 
 .botonmenu{
   width: 40px;
-  height: 40px;
   background-color: #0044AA;
   color: white;
   font-size: 20px;
-  padding: 10px;
+  padding: 10px 0px;
   border-radius: 5px;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icono, .precios, .Descuentos, .Descripciones{
+  text-align: left;
+}
+
+.Descripciones{
+  font-size: 20px;
+  padding: 0;
+}
+
+.img{
+  max-width: 45%;
 }
 
 .botonmenu:hover {
   background-color: #0022AA;
   cursor: pointer;
-  }
+}
 
-  .enviar{
-    cursor: pointer;
+.enviar{
+    color: white;
     background-color: #0044AA;
     border-radius: 5px;
-  }
+    width: 30%;
+    padding: 10px 0px;
+}
 
-  .botonenviar{
-    color:white;
-  }
+.enviar:hover {
+    background-color: #0022AA;
+    cursor: pointer;
+}
 
+.login{
+text-align: center;
+}
 
 footer{
   border-left-width: 5px;
   border-bottom: 20px;
   border-top: 20px;
+  font-family:'Roboto', sans-serif;
+  font-size:12px;
 }  
 
 .piedepagina{
-  top: 20px;
-  bottom: 20px;
-}
-
-.content-boxlogin{
-width: 100px;
-padding: 10px;
-margin-top: 20px;
-margin-bottom: 20px;
-border-radius: 5px;
-border:0px;
+  margin:20px 0px;
+  padding: 20px, 5%;
 }
 
 .botonborrar{
   color:white;
   background-color: #AA0044;
   cursor: #CC1155;
+  width:30%;
+}
+
+p{
+  font-family:'Roboto', sans-serif;
+  font-size:12px;
+}
+
+h3{
+  color:#666;
+}
+
+.banner{
+  padding: 0px, 0px;
+  width: 100%;
+  display: flex;
+}
+
+.seccionprincipal{
+  width: 90%;
+  text-align: center;
+  display: flex;
+}
+
+article{
+  margin: 20px;
+  padding: 15px;
+  background-color:white;
+}
+
+.cajaarcticle{
+  display: block;
+  border: solid #ebebeb 1px;
+}
+
+.inputlogin{
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border:0px;
+}
+
+.piedepaginamedio{
+  margin: 0px 0px;
+}
+
+.contenedorpiedepagina{
+  background-color: white;
+}
+
+.botonborrar{
+  width:30%;
+}
+
+.contenedor2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.article2{
+  display: inline-block;
+  list-style: none;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  width:80%
+
+}
+
+.article2 img{
+  align-items: center;
+  display: inline;
+  width: 100%;
+}
+
+.seccionprincipal .icono {
+display: inline-table;
+flex-direction: row-reverse;
+}
+
+.contenedorregister{
+  margin: auto;
+  text-align: center;
+}
+
+.contenedorregister .content-boxintereses{
+  text-align: left;
+  margin-left: 35%;
 }
